@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
-
 from urllib.error import URLError
 
-st.markdown(f"# {list(page_names_to_funcs.keys())[2]}")
+st.set_page_config(page_title="Mapping Demo", page_icon="🌍")
+st.markdown("# Mapping Demo")
+st.sidebar.header("Mapping Demo")
 st.write(
     """
     This demo shows how to use

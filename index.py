@@ -4,7 +4,10 @@ st.set_page_config(
         page_title="Index",
         page_icon="👋",
         )
-st.write("# Welcome to Streamlit! 👋")
+st.write("""
+         # Hello from Sivan!👋 
+         ## Thank you all for joining in the interview!
+         """)
 st.sidebar.success("Select a demo above.")
 
 st.markdown(
